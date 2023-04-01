@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daraz Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 h-auto">
+    <header>
+        <!-- header 1 -->
+        <div class=" bg-gray-200 gap-4 ">
+            <div class="flex items-start gap-5 justify-between ml-2 mr-20 text-sm p-1 flex-col md:flex-row shrink md:ml-56 ">
+
+                <a class="hover:text-orange-500 " href="#">Save More ON APP</a>
+                <a class="hover:text-orange-500 "  href="#">Daraz Donates</a>
+                <a class="hover:text-orange-500 "  href="#">SEll ON DARAZ</a>
+                <a class="hover:text-orange-500 "  href="#">Coustomer Care</a>
+                <a class="hover:text-orange-500 "  href="#">Track My Order</a>
+                <a class="hover:text-orange-500 "  href="#">SIGN UP/LOGIN</a>
+                <a class="hover:text-orange-500 "  href="">Daraz Affliate Program</a>
+                <a class="hover:text-orange-500 "  href="#">Lenguage</a>
+
+            </div>
+        </div>
+
+        <!-- header 2 -->
+        <!-- navbar -->
+        <div class="w-auto h-[70px] flex items-center  justify-between  bg-white fix flex-col pb-52 gap-3 md:flex-row  md:pb-0">
+
+            <!-- logo -->
+            <div class="w-36  md:ml-16">
+                <img src="img/daraz-logo.png" alt="">
+            </div>
+
+            <!-- search bar -->
+            <div class="flex w-96 ">
+                <input class="bg-gray-100 p-2 w-[40rem]" type="text" placeholder="search in daraz">
+                <button class="bg-orange-500 text-white w-10 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                  </svg>
+                  </button>
+            </div>
+
+            <!-- shoping button -->
+            <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+              </svg>
+              </button>
+
+              <!-- free dilevery Icon -->
+            <div class="w-48 
+            md:mr-20">
+                <img src="img/app-dawonload.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <div class="bg-[#f4e9e9] ">
+        <!-- catagory section-->
+        <div class="bg-[url('/img/banner-1.jpg')] mx-20 bg-cover z-10 w-full ">
+            <div  class="  w-48 h-[21rem] bg-white shadow-sm z-20 ">
+                <div class="my-2 flex-col w-full">
+    
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Women's & Girls Fashion</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Health & Beauty</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Watches, Bags, Jewellery</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Men's & Boys' Fashion</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Babies & Toys</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Electronics Devices</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">TV & Home Appliances</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Electronic Accessories</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Groceries & Pets</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Home & Lifestyle</a>
+                    <a class=" text-sm p-1 block hover:bg-gray-100 hover:text-cyan-600" href="">Sports & Outdoors</a>
+                                            
+                </div>
+            </div>
+            
+        </div>
+        </div>
+
+        <!-- shoping Type -->
+        <div class="flex gap-2 mx-2 mt-7 justify-between md:mx-20" >
+           
+            <button class="flex items-center bg-white w-56 rounded-full shadow hover:text-pink-500 hover:shadow-lg">
+                <img class="w-9 ml-2" src="img/dilevery-logo.png" alt="">
+                <p>Free Delivery</p>
+            </button>
+            <button class="flex items-center bg-white w-56 rounded-full shadow hover:text-pink-500 hover:shadow-lg">
+                <img class="w-9" src="img/mart-logo.png" alt="">
+                <p>Mart</p>
+            </button>
+            <button class="flex items-center bg-white w-56 rounded-full shadow hover:text-pink-500 hover:shadow-lg">
+                <img class="w-9"  src="img/mens-logo.png" alt="">
+                <p>Men's Fashion</p>
+            </button>
+            <button class="flex items-center bg-white w-56 rounded-full shadow hover:text-pink-500 hover:shadow-lg">
+                <img class="w-9" src="img/women-logo.png" alt="">
+                <p>women's Fashion</p>
+            </button>
+            <button class="flex items-center bg-white w-56 rounded-full shadow hover:text-pink-500 hover:shadow-lg">
+                <img class="w-9" src="img/beauty-logo.png" alt="">
+                <p>Beauty & Glamour</p>
+            </button>
+        
+        </div>
+
+        <!-- sale section -->
+        <p class="mx-20 mt-10 text-3xl text-gray-500 font-semibold mb-2">Flashsale</p>
+
+        <div class="mx-2 bg-white h-96 md:mx-20  lg:mb-0">
+
+            <div class="flex border-b pb-4  ">
+                <p class="text-orange-500 mt-5 ml-10">On Sale Now</p>
+                <p class="ml-16 mt-5">Ending in</p>
+                 <button class="p-2 px-3 bg-orange-500 rounded-sm mt-3 ml-5 text-white">22</button>
+                 <button class="p-2 px-3 bg-orange-500 rounded-sm mt-3 ml-5 text-white">5</button>
+                 <button class="p-2 px-3 bg-orange-500 rounded-sm mt-3 ml-5 text-white">08</button>
+            </div>
+
+            <div class="grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-4 mb-6">
+
+                <div class=" hover:shadow-xl hover:border ">
+                    <img src="img/arabia.jpg" alt="">
+                    <p>Ehsas Al Arabia- Made In Holy Makkah-K.S.A</p>
+                    <p class="text-orange-500 text-2xl">$299</p>
+                    <p class="text-sm"><span class="line-through mr-3">$600</span>-50%</p>
+                </div>
+
+                <div class=" hover:shadow-xl hover:border">
+                    <img src="img/t-shirt.jpg" alt="">
+                    <p>Men's Premium soft and Comfortable T-shirt</p>
+                    <p class="text-orange-500 text-2xl">$160</p>
+                    <p class="text-sm"><span class="line-through mr-3">$249</span>-35%</p>
+                </div>
+
+                <div class=" hover:shadow-xl hover:border">
+                    <img src="img/al-kaba.jpg" alt="">
+                    <p>Al Kaaba-Made in soudi arabia-Premium Attar</p>
+                    <p class="text-orange-500 text-2xl">$314</p>
+                    <p class="text-sm"><span class="line-through mr-3">$800</span>-60%</p>
+                </div>
+
+                <div class=" hover:shadow-xl hover:border">
+                    <img src="img/6 pc.jpg" alt="">
+                    <p>6 pcs 6 different Mini combo attar perfume</p>
+                    <p class="text-orange-500 text-2xl">$79</p>
+                    <p class="text-sm"><span class="line-through mr-3">$180</span>-56%</p>
+                </div>
+
+                <div class=" hover:shadow-xl hover:border">
+                    <img src="img/8pc.jpg" alt="">
+                    <p>Stila 8 pieces matte liquid lipstick set</p>
+                    <p class="text-orange-500 text-2xl">$221</p>
+                    <p class="text-sm"><span class="line-through mr-3">$450</span>-50%</p>
+                </div>
+
+                <div class=" hover:shadow-xl hover:border">
+                    <img src="img/window-mos.jpg" alt="">
+                    <p>Window Anti Mosquito Net/ Anti-insect Fly Bug</p>
+                    <p class="text-orange-500 text-2xl">$123</p>
+                    <p class="text-sm"><span class="line-through mr-3">$280</span>-56%</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- catogories section -->
+        <div class="mt-96 md:mt-0">
+            <p class="mx-20  text-3xl text-gray-500 font-semibold mb-2">Categories</p>
+
+        <div class="grid mx-2 grid-cols-8 md:mx-20 ">
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/casual.jpg" alt="">
+                <p class="">Casual</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/fashion.jpg" alt="">
+                <p class="">Fashion</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/smart-phone.jpg" alt="">
+                <p class="">Smart Pone</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all" >
+                <img class="h-20 mt-3" src="img/smart-watches.jpg" alt="">
+                <p class="">Smart Watches</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/fairy-light.jpg" alt="">
+                <p class="">Fairy light</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/mounts.jpg" alt="">
+                <p class="">Mounts</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/laptop-stand.jpg" alt="">
+                <p class="">Laptop stands</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/smart-lens.jpg" alt="">
+                <p class="">Smart Lens</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/portable-speaker.jpg" alt="">
+                <p class="">Portable Speaker</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center  h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/water-bottle.jpg" alt="">
+                <p class="">Water Bottle</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/football.jpg" alt="">
+                <p class="">Football</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/cloth-towels.jpg" alt="">
+                <p class="">Cloth & Towels</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/kurtas.jpg" alt="">
+                <p class="">leans Cleaner</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/lens-cleaner.jpg" alt="">
+                <p class="">Kurtas</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/casual-shirt.jpg" alt="">
+                <p class="">Casual Shirt</p>
+            </div>
+
+            <div class="bg-white border flex flex-col items-center h-32 hover:shadow-md hover:scale-105 transition-all">
+                <img class="h-20 mt-3" src="img/wireless.jpg" alt="">
+                <p class="">Wireless Earbuds</p>
+            </div>
+        </div>
+        
+
+        </div>
+
+        <!-- just for you section -->
+        <p class="mx-20 mt-10 text-3xl text-gray-500 font-semibold mb-2">Just For You</p>
+
+
+        <div class="mx-20 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 ">
+
+            <div class=" hover:shadow-xl hover:border bg-white ">
+                    <img src="img/sunglass.webp" alt="">
+                    <p>Roza Sunglasses Spectacle Frame Glasses</p>
+                    <p class="text-orange-500 text-2xl">$299</p>
+                    <p class="text-sm"><span class="line-through mr-3">$600</span>-50%</p>
+                    
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white">
+                <img src="img/6 combo tshirt.webp" alt="">
+                <p>6 Combo Cotton T-Shirt For Man Half sleave </p>
+                <p class="text-orange-500 text-2xl">$507</p>
+                <p class="text-sm"><span class="line-through mr-3">$699</span>-27%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white">
+                <img src="img/blutoth.webp" alt="">
+                <p>f9 Bloutoth Earphones V5.0 tws Wireless Earphones</p>
+                <p class="text-orange-500 text-2xl">$464</p>
+                <p class="text-sm"><span class="line-through mr-3">$1738</span>-27%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white">
+                <img src="img/shoes.webp" alt="">
+                <p>New Premium Men's Shoe Stylish Formal  & Fashion</p>
+                <p class="text-orange-500 text-2xl">$320</p>
+                <p class="text-sm"><span class="line-through mr-3">$600</span>-47%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white">
+                <img src="img/shirt.webp" alt="">
+                <p>New stylish cotton Long sleave formal shirt for men </p>
+                <p class="text-orange-500 text-2xl">$195</p>
+                <p class="text-sm"><span class="line-through mr-3">$790</span>-75%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white">
+                <img src="img/sneakers.webp" alt="">
+                <p>Snweakers for men 2022 treandy casual shoes </p>
+                <p class="text-orange-500 text-2xl">$423</p>
+                <p class="text-sm"><span class="line-through mr-3">$1890</span>-78%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white">
+                <img src="img/women-watch.webp" alt="">
+                <p>Smart watch for Women Men, 1'69 full touch</p>
+                <p class="text-orange-500 text-2xl">$1148</p>
+                <p class="text-sm"><span class="line-through mr-3">$1669</span>-31%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white">
+                <img src="img/wallet.webp" alt="">
+                <p>Bullcaptain Zipper Leather Wallet For Men Black</p>
+                <p class="text-orange-500 text-2xl">$390</p>
+                <p class="text-sm"><span class="line-through mr-3">$850</span>-54%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white">
+                <img src="img/oleves.webp" alt="">
+                <p>Oleves watch for Men Waterproof Treandy</p>
+                <p class="text-orange-500 text-2xl">$1932</p>
+                <p class="text-sm"><span class="line-through mr-3">$3200</span>-40%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white">
+                <img src="img/ip-cam.webp" alt="">
+                <p>A9 Mini Wifi HD 1080p Wireless IP Camara </p>
+                <p class="text-orange-500 text-2xl">$453</p>
+                <p class="text-sm"><span class="line-through mr-3">$899</span>-50%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white ">
+                <img src="img/rgb.webp" alt="">
+                <p>RGB Rechargeable Music Pickup Light-Rythim</p>
+                <p class="text-orange-500 text-2xl">$390</p>
+                <p class="text-sm"><span class="line-through mr-3">$890</span>-56%</p>
+            </div>
+
+            <div class=" hover:shadow-xl hover:border bg-white ">
+                <img src="img/lcd.webp" alt="">
+                <p>Lcd Table Writing 8.5 inch LCD Drawing Table Lcd</p>
+                <p class="text-orange-500 text-2xl">$165</p>
+                <p class="text-sm"><span class="line-through mr-3">$450</span>-63%</p>
+            </div>
+        </div>
+
+        <!-- load more button -->
+        <button class="border border-orange-500 text-orange-500 ml-[32rem] w-80 p-2 bg-white my-10  ">Load More</button>            
+    </main>
+    <!-- footer -->
+    <footer>
+
+        <div class="bg-blue-950 flex-col h-auto sm:flex-row md:flex ">
+            <div class="flex-col text-white ml-20 my-5 ">
+                <section class="">
+                    <h3 class="text-xl mb-3">Coustomer Care </h3>
+                    <p class="hover:underline cursor-pointer text-[12px] " >Help Center</p>
+                    <p class="hover:underline cursor-pointer text-[12px]" >How to Buy</p>
+                    <p class="hover:underline cursor-pointer text-[12px]" >Returns & Refunds</p>
+                    <p class="hover:underline cursor-pointer text-[12px]" >Contact Us</p>
+                    <p class="hover:underline cursor-pointer text-[12px]" >Terms & Conditions</p>
+                    <p class="hover:underline cursor-pointer text-[12px]" >CCMS - Central Complain Management System</p>
+                </section>
+                <section class="mt-5">
+                    <h3 class="text-xl mb-3">Earn With Daraz</h3>
+                    <p class="hover:underline cursor-pointer text-[12px]" >Daraz University</p>
+                    <p class="hover:underline cursor-pointer text-[12px]" >Sell on Daraz</p>
+                    <p class="hover:underline cursor-pointer text-[12px]" >Code of Conduct
+                    </p>
+                    <p class="hover:underline cursor-pointer text-[12px]" >Join the Daraz Affiliate Program</p>
+                </section>
+            </div>
+
+            <div class="text-white ml-24 my-16">
+                <h3 class="text-lg">Daraz</h3>
+                <p class="hover:underline cursor-pointer text-[12px]" >About Daraz</p>
+                <p class="hover:underline cursor-pointer text-[12px]" >Digital Payment</p>
+                <p class="hover:underline cursor-pointer text-[12px]" >Daraz Blog</p>
+                <p class="hover:underline cursor-pointer text-[12px]" >Daraz Cares</p>
+                <p class="hover:underline cursor-pointer text-[12px]" >Daraz Marts</p>
+                <p class="hover:underline cursor-pointer text-[12px]" >Privacy Policy</p>
+                <p class="hover:underline cursor-pointer text-[12px]" >Daraz App</p>
+                <p class="hover:underline cursor-pointer text-[12px]" >Daraz Exclisive</p>
+                <p class="hover:underline cursor-pointer text-[12px]" >Hungryanaki Food Dilevery</p>
+                <p class="hover:underline cursor-pointer text-[12px]" >Daraz Donates</p>
+
+            </div>
+
+            <div class=" mt-28 ml-24">
+                <div class="flex items-center">
+                    <img class="w-32 rounded-md" src="img/qr.png" alt="">
+                    <div class="flex-col ml-5">
+                        <img class="w-10 h-10" src="img/logo.png" alt="">
+                        <p class="text-orange-500"> Happy Shoping</p>
+                        <p class="text-white">Dawonload App</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
